@@ -16,7 +16,7 @@ namespace AssistDjMapInstaller
         private String createMapping(String name)
         {
             System.Net.WebClient webClient = new System.Net.WebClient();
-            byte[] data = webClient.DownloadData("https://gabrielraffa.works/projetos/assist_dj/mapeamento_android.txt");         
+            byte[] data = webClient.DownloadData("https://gabrielraffa.com/projetos/assist_dj/mapeamento_android.txt");         
 
             return System.Text.Encoding.UTF8.GetString(data);
         }
